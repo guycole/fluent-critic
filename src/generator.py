@@ -20,7 +20,7 @@ def generate_parody_headlines(headlines: list[str]) -> list[str]:
     prompt = (
         "Below are real Business Insider headlines.\n\n"
         f"{numbered}\n\n"
-        f"Write exactly {NUM_ALTERNATIVES} snarky, satirical parody alternatives "
+        f"Write exactly {NUM_ALTERNATIVES} extra snarky, satirical parody alternatives "
         "that mock the breathless, hyperbolic, clickbait style of business media. "
         "Each parody headline should:\n"
         "- Exaggerate the drama of the original topics\n"

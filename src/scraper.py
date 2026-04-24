@@ -13,7 +13,7 @@ HEADERS = {
 }
 
 
-def fetch_headlines(url: str = "https://www.businessinsider.com") -> list[str]:
+def fetch_headlines(url: str = "https://www.businessinsider.com/lifestyle") -> list[str]:
     """Return up to MAX_HEADLINES unique, non-empty headlines from *url*."""
     response = requests.get(url, headers=HEADERS, timeout=15)
     response.raise_for_status()
